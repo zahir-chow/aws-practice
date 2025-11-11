@@ -48,8 +48,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    // Add deployment steps here
-                    // For example, deploying to a Kubernetes cluster or SSH to a server
+                  
                     echo 'Deploying application...'
                 }
             }
